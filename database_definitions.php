@@ -23,12 +23,15 @@ the board layout table stores a unique id for every board configuration in the g
 
 	 * 
 	 * 
-	 * DROP TABLE IF EXISTS `onemovechess`.`games`;
+DROP TABLE IF EXISTS `onemovechess`.`games`;
 CREATE TABLE  `onemovechess`.`games` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT COMMENT 'the games unique id',
+  `lastplayerid` int(10) unsigned NOT NULL COMMENT 'who was the last player to make a move',
+  `gamefinished` int(10) unsigned NOT NULL COMMENT 'is this game finished',
+  `currentplayerid` int(10) unsigned NOT NULL COMMENT 'what player are we currently waiting on',
+  `time` datetime NOT NULL COMMENT 'when did we give the current player control of the board',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 ROW_FORMAT=FIXED COMMENT='each game has a unique id';
-	 * Does anything else need to be stored that is specific to each game???
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 ROW_FORMAT=FIXED COMMENT='each game has a unique id';	 * Does anything else need to be stored that is specific to each game???
 	 *
 	 * 
 	 * 
