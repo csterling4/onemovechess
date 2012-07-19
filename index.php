@@ -37,9 +37,11 @@
     <header> 
  One Move Chess
     </header> 
-    <div id="main" role="main"> 
- 
-    </div> 
+    <div id="main"> 
+    	One Move Chess is the ultimate test of a persons chess savvy. To be able to play the best move on a random board configuration.
+    	<a href="#">Resume</a>
+    	<a href="#">First Time Player</a>
+    </div>
     <footer> 
  
     </footer> 
