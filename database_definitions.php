@@ -54,6 +54,7 @@ CREATE TABLE  `onemovechess`.`players` (
   `email` varchar(45) NOT NULL COMMENT 'users email address',
   `passphrase` binary(160) NOT NULL COMMENT 'password hash',
   `handle` varchar(45) NOT NULL COMMENT 'nickname other player will know this person by',
+  `points` int(10) unsigned NOT NULL COMMENT 'total score for this user',
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 ROW_FORMAT=FIXED COMMENT='players with their passphrase';   
 	 */
