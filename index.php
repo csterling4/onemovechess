@@ -28,39 +28,22 @@
  
   <!-- Uncomment if you are specifically targeting less enabled mobile browsers
   <link rel="stylesheet" media="handheld" href="css/handheld.css?v=2">  --> 
+ <script type="text/javascript" src="js/libs/jquery-1.5.1.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
  
 </head> 
  
 <body> 
  
-  <div id="container"> 
     <header> 
  One Move Chess
     </header> 
-    <div id="main"> 
-    	One Move Chess is the ultimate test of a persons chess savvy. To be able to play the best move on a random board configuration.
-    	<a href="#">Resume</a>
-    	<a href="#">First Time Player</a>
+    <div id="main">
+    	Loading... 
     </div>
     <footer> 
- 
+ All rights reserved HopToGames.com
     </footer> 
-  </div> <!--! end of #container --> 
- 
- 
-  <!-- JavaScript at the bottom for fast page loading --> 
- 
-  <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary --> 
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.js"></script> 
-  <script>window.jQuery || document.write("<script src='js/libs/jquery-1.5.1.min.js'>\x3C/script>")</script> 
- 
- 
- 
- 
-  <!--[if lt IE 7 ]>
-    <script src="js/libs/dd_belatedpng.js"></script>
-    <script>DD_belatedPNG.fix("img, .png_bg"); // Fix any <img> or .png_bg bg-images. Also, please read goo.gl/mZiyb </script>
-  <![endif]--> 
  
 </body> 
 </html>
